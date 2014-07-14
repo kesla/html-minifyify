@@ -16,5 +16,19 @@
   },
   "devDependencies": {
     "tape": "^2.13.3"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kesla/html-minifyify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kesla/html-minifyify/issues"
+  },
+  "homepage": "https://github.com/kesla/html-minifyify",
+  "keywords": [
+    "browserify"
+  ]
 }
