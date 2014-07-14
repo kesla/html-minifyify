@@ -2,15 +2,19 @@
   "name": "html-minifyify",
   "version": "0.0.0",
   "description": "browserify transform to inline calls to html-minifier",
-  "main": "html-minifier.js",
+  "main": "html-minifyify.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "tape test/runner.js"
   },
   "author": "David Björklund <david.bjorklund@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "html-minifier": "^0.6.5",
+    "quote-stream": "0.0.0",
     "static-module": "^1.0.0",
     "through2": "^0.5.1"
+  },
+  "devDependencies": {
+    "tape": "^2.13.3"
   }
 }
