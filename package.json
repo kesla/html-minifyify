@@ -1,6 +1,6 @@
 {
   "name": "html-minifyify",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "browserify transform to inline calls to html-minifier",
   "main": "html-minifyify.js",
   "scripts": {
